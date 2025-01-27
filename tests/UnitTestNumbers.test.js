@@ -1,4 +1,4 @@
-const calculateStandardDeviation = require('../src/UnitTest');
+const calculateStandardDeviation = require('../src/UnitTestNumbers');
 
 describe('Numbers', () => {
     // Controllo della lunghezza di Numbers

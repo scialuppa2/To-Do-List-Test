@@ -28,7 +28,7 @@ describe('To-Do List', () => {
   });
 
   test("non elimina un task se ID inesistente", () => {
-    todoList.addTask('Learn TDD');
+    todoList.addTask('Eseguire un esercizio');
     todoList.deleteTask(999); 
     expect(todoList.getTasks()).toHaveLength(1);
   });
